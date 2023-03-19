@@ -4,7 +4,7 @@ Tags: superb, helper
 Requires at least: 5.1
 Tested up to: 6.1.1
 Requires PHP: 7.2
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
@@ -104,6 +104,9 @@ to represent the company, product, or service to which they refer.**
 2. Interface screenshot
  
 == Changelog ==
+= 1.0.8 =
+* GDPR compliance update
+
 = 1.0.7 =
 * Updated missing links
 

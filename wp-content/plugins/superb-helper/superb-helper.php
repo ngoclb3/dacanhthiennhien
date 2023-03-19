@@ -2,7 +2,7 @@
 /*
 Plugin Name: Superb Helper
 Description: Superb Helper is your personal WordPress assistant.
-Version: 1.0.7
+Version: 1.0.8
 Author: SuPlugins
 Author URI: https://superbthemes.com/
 Author URI:
@@ -45,7 +45,7 @@ $spbhlpr->init();
 class spbhlpr
 {
     /// name, prefix, version
-    private $plugin_info = array('Superb Helper', 'spbhlpr', '1.0.7');
+    private $plugin_info = array('Superb Helper', 'spbhlpr', '1.0.8');
     private static $instance;
 
     public static function GetInstance()
