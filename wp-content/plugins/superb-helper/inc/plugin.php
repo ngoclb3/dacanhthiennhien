@@ -42,7 +42,7 @@ if (!class_exists('spbhlpr_plugin')) {
 				wp_enqueue_style('spbhlpr-stylesheet', $this->base_url . 'assets/css/backend.css', false, $this->plugin_version, 'all');
 				wp_enqueue_style('spbhlpr-fontawesome', $this->base_url . 'assets/fontawesome/css/fontawesome.css', false, $this->plugin_version, 'all');
 				wp_enqueue_style('spbhlpr-fontawesome-s', $this->base_url . 'assets/fontawesome/css/solid.css', false, $this->plugin_version, 'all');
-				wp_enqueue_style('spbhlpr-lato', 'https://fonts.googleapis.com/css?family=Lato:400,700&display=swap', false, $this->plugin_version, 'all');
+				wp_enqueue_style('spbhlpr-lato', $this->base_url . 'assets/lato/styles.css', false, $this->plugin_version, 'all');
 
 				wp_enqueue_script('superbfw-script', $this->base_url . '/assets/js/backend.js', false, $this->plugin_version);
 			}
